@@ -1,0 +1,29 @@
+{
+  "name": "algorithms-melnyk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/eslint/bin/eslint.js lib && node ./node_modules/mocha/bin/mocha --recursive lib",
+    "test-win": "(node ./node_modules/eslint/bin/eslint.js lib) && (node ./node_modules/mocha/bin/mocha --recursive lib)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelMelnyk/algorithms-melnyk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelMelnyk/algorithms-melnyk/issues"
+  },
+  "homepage": "https://github.com/PavelMelnyk/algorithms-melnyk#readme",
+  "dependencies": {
+    "mocha": "^5.0.1",
+    "should": "^13.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
+  }
+}
