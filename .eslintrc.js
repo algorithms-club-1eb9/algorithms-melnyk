@@ -12,6 +12,8 @@ module.exports = {
 		"class-methods-use-this": 0,
 		"linebreak-style": 0,
 		"no-param-reassign": 0,
-		"arrow-parens": 0
+		"arrow-parens": 0,
+		"no-continue": 0,
+		"no-console": 0
 	}
 };
